@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+input.region{
+    width:70%;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msv{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #3097d1 !important;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #3097d1 !important;
+    color:#fff !important;
+}
+.clear{
+    clear:both;
+}
