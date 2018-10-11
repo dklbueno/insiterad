@@ -40,13 +40,6 @@ class LoginController extends Controller
 
     public function showLoginForm()
     {
-        // $url = url('/');
-        // $url_manifest = url('manifest.json');        
-
-        // if(getenv('APP_ENV') != 'local' && getenv('APP_ENV') != 'dev'){
-        //     $url = secure_url('/');
-        //     $url_manifest = secure_url('manifest.json');
-        // }   
         return Response::view('auth.login')->header('Cache-Control', 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
     }
 

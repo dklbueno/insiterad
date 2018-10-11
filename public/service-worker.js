@@ -5,6 +5,7 @@ self.addEventListener('install', function(e) {
             '.',
             '/',
             '/login',
+            '/calculo',
             '/js/jquery.min.js',
             '/js/app.js',
             '/js/calculo.js',
